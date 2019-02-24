@@ -9,3 +9,6 @@ stop:
 
 shell:
 	docker exec -it mtasa bash
+
+tail:
+	docker exec -it mtasa /bin/sh -c "tail -f mods/deathmatch/logs/server.log"
